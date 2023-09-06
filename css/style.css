@@ -1,3 +1,26 @@
 main {
     min-height: calc(100vh - 160px);
   }
+  .result{
+    width: 240px;
+    text-align: center;
+    border: 3px solid;
+    margin: 1%;
+    height: 400px;
+    overflow:auto;
+  }
+  .result img{
+    width: 200px;
+    height: 200px;
+  }
+  .result h2{
+    font-size: 18px;
+  }
+  .result p{
+    font-size: 12px;
+  }
+  #contenedor{
+    display: flex;
+    flex-wrap: wrap;
+  
+  }
